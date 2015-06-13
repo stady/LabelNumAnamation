@@ -13,18 +13,18 @@ LabelNumAnamation
 </pre>
 
 * 代理方法
-<pre>
+<pre><code>
 //文字为 普通文本
-\-(NSString *)currentText:(PDLableAnimaUtil *)animalUtil index:(NSInteger)index;</br>
+-(NSString *)currentText:(PDLableAnimaUtil *)animalUtil index:(NSInteger)index;</br>
 //文字为Attributed Text
-\- (NSAttributedString *)currentAttributedText:(PDLableAnimaUtil *)animalUtil index:(NSInteger)index
-</pre>
+-(NSAttributedString *)currentAttributedText:(PDLableAnimaUtil *)animalUtil index:(NSInteger)index
+</code></pre>
 
 * 执行动画
-<pre></pre>
+<pre>[util startAnimation];</pre>
 
 * 如果需要停止动画
-<pre>[util startAnimation];</pre>
+<pre>[util stopAnimation];</pre>
 
 ### 3.具体实现请看Demo
 
